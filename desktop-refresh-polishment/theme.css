@@ -1,7 +1,7 @@
 .visual-refresh {
     .panels_c48ade {
         backdrop-filter: blur(20px) saturate(1.5);
-        background: color-mix(in srgb, var(--bg-overlay-floating, var(--background-base-low)) 70%, transparent)!important;
+        background: color-mix(in srgb, var(--bg-overlay-floating, var(--background-base-low)) 75%, transparent)!important;
     }
     .panel__5dec7 {
         background-color: color-mix(in srgb, var(--background-surface-high) 45%, transparent)!important;
