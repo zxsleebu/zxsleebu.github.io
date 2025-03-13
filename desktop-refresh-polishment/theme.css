@@ -1,7 +1,7 @@
 .visual-refresh {
     .panels_c48ade {
         backdrop-filter: blur(20px) saturate(1.5);
-        background: color-mix(in srgb, var(--bg-overlay-floating, var(--background-base-low)) 75%, transparent)!important;
+        background: color-mix(in srgb, var(--bg-overlay-floating, var(--background-base-low)) 70%, transparent)!important;
     }
     .panel__5dec7 {
         background-color: color-mix(in srgb, var(--background-surface-high) 45%, transparent)!important;
@@ -69,5 +69,10 @@
 
     .unreadMentionsIndicatorBottom_ef3116 {
         bottom: calc(var(--custom-app-panels-height, 0) + 8px)!important;
+        .unreadMentionsBar_ef3116{
+            border: 1px solid color-mix(in srgb, var(--status-danger) 30%, rgba(0,0,0,0.5))!important;
+            background: color-mix(in srgb, var(--status-danger) 50%, transparent)!important;
+            backdrop-filter: blur(8px)!important;
+        }
     }
 }
