@@ -66,4 +66,8 @@
     .container_e45859:has(a[href="/store"]) {
         display: none!important;
     }
+
+    .unreadMentionsIndicatorBottom_ef3116 {
+        bottom: calc(var(--custom-app-panels-height, 0) + 8px)!important;
+    }
 }
