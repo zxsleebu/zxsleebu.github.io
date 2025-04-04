@@ -2,7 +2,7 @@
 
     .panels_c48ade,
     .container__2692d,
-    .menu_c1e9c4,
+    /* .menu_c1e9c4, */
     .outer_c0bea0 {
         backdrop-filter: blur(20px) saturate(1.5);
         background: color-mix(in srgb, var(--bg-overlay-floating, var(--background-base-low)) 70%, transparent) !important;
