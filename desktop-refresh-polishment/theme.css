@@ -81,9 +81,9 @@
         display: none
     }
 
-    .container_e45859:has(a[href="/shop"]) {
+    /*.container_e45859:has(a[href="/shop"]) {
         display: none !important;
-    }
+    }*/
 
     .container_e45859:has(a[href="/store"]) {
         display: none !important;
